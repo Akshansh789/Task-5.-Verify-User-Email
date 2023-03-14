@@ -84,7 +84,6 @@ const Login = () => {
                                 },
                             }
                         )
-                        
                         if (responce.ok) {
                             let data=await responce.json();
                             console.log(data.users[0])
